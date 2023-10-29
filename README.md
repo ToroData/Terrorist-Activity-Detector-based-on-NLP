@@ -23,5 +23,14 @@ It should be employed responsibly within the context of national security and co
 # Usage Instructions
 To use the detector, you can run the Python notebook. From there, you will obtain the model that you can subsequently deploy in desired systems. For example, you can implement Lambda functions to prevent the publication of messages that do not pass the filter and send these messages to the legal department of the social network.
 
+# Database Information
+In the development of this project, the following publicly available Kaggle datasets were utilized:
+
+1. [Sentiment140 dataset with 1.6 million tweets](https://www.kaggle.com/datasets/kazanova/sentiment140)
+2. [Indonesian Tweet About Terrorism (Teroris)](https://www.kaggle.com/datasets/linkgish/indonesian-tweet-about-teroris-terrorism?select=indonesian_tweet_about_teroris.csv)
+3. [Terrorism And Jihadism Speech Detection](https://www.kaggle.com/datasets/haithemhermessi/terrorism-and-jihadist-speech-detection/)
+4. [Religious Texts Used By ISIS](https://www.kaggle.com/datasets/fifthtribe/isis-religious-texts)
+
+These datasets have contributed to the development and training of the NLP model used in this project for the detection of terrorist activities.
 # Contact Information
 If you have any questions or need more information about this project, you can contact ricardraigada@outlook.es.
